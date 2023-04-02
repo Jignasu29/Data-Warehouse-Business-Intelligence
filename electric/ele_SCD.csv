@@ -1,0 +1,84 @@
+"Plant Id","Combined Heat And
+Power Plant","Nuclear Unit Id","Plant Name","Operator Name","Operator Id","State","Census Region","NERC Region","Reserved","NAICS Code","EIA Sector Number","Sector Name","Reported
+Prime Mover","Reported Fuel Type Code","AER Fuel Type Code","Reserved.1","Reserved.2","Physical
+Unit Label","Quantity
+January","Quantity
+February","Quantity
+March","Quantity
+April","Quantity
+May","Quantity
+June","Quantity
+July","Quantity
+August","Quantity
+September","Quantity
+October","Quantity
+November","Quantity
+December","Elec_Quantity
+January","Elec_Quantity
+February","Elec_Quantity
+March","Elec_Quantity
+April","Elec_Quantity
+May","Elec_Quantity
+June","Elec_Quantity
+July","Elec_Quantity
+August","Elec_Quantity
+September","Elec_Quantity
+October","Elec_Quantity
+November","Elec_Quantity
+December","MMBtuPer_Unit
+January","MMBtuPer_Unit
+February","MMBtuPer_Unit
+March","MMBtuPer_Unit
+April","MMBtuPer_Unit
+May","MMBtuPer_Unit
+June","MMBtuPer_Unit
+July","MMBtuPer_Unit
+August","MMBtuPer_Unit
+September","MMBtuPer_Unit
+October","MMBtuPer_Unit
+November","MMBtuPer_Unit
+December","Tot_MMBtu
+January","Tot_MMBtu
+February","Tot_MMBtu
+March","Tot_MMBtu
+April","Tot_MMBtu
+May","Tot_MMBtu
+June","Tot_MMBtu
+July","Tot_MMBtu
+August","Tot_MMBtu
+September","Tot_MMBtu
+October","Tot_MMBtu
+November","Tot_MMBtu
+December","Elec_MMBtu
+January","Elec_MMBtu
+February","Elec_MMBtu
+March","Elec_MMBtu
+April","Elec_MMBtu
+May","Elec_MMBtu
+June","Elec_MMBtu
+July","Elec_MMBtu
+August","Elec_MMBtu
+September","Elec_MMBtu
+October","Elec_MMBtu
+November","Elec_MMBtu
+December","Netgen
+January","Netgen
+February","Netgen
+March","Netgen
+April","Netgen
+May","Netgen
+June","Netgen
+July","Netgen
+August","Netgen
+September","Netgen
+October","Netgen
+November","Netgen
+December","Total Fuel Consumption
+Quantity","Electric Fuel Consumption
+Quantity","Total Fuel Consumption
+MMBtu","Elec Fuel Consumption MMBtu","Net Generation (Megawatthours)","Year"
+2,"N",".","Boston SCD Facility","Alabama Power Co","195","AL","ESC","SERC","",22,1,"Electric Utility","HY","WAT","HYC","","","","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","-26.349","-23.631","-29.726","-28.943","-31.139","-30.101","-24.78","-20.2","-18.438","-16.519","-18.925","-22.249",0,0,0,0,-291.0,2017
+1011,"N",".","Seattle SCD Facility","Southern Indiana Gas & Elec Co","17633","IN","ENC","RFC","",22,1,"Electric Utility","GT","DFO","DFO","","","barrels","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0",0,0,0,0,0.0,2017
+1595,"Y",".","Kendall Square Station","Northeastern SCD Operator",77777,"MA","NEW","NPCC","",22,3,"NAICS-22 Cogen","GT","DFO","DFO","","","barrels","34","0","34","17","356","296","35","95","430","166","0","395","2","0","9","7","74","114","14","35","171","69","0","96","5.8","0","5.8","5.8","5.8","5.8","5.8","5.8","5.8","5.8","0","5.8","197","0","197","99","2065","1717","203","551","2494","963","0","2291","11","0","51","40","432","660","80","205","989","398","0","557","2","0","9","7","76","116","14","36","174","70","0","98",1858,591,10777,3423,602.0,2017
+10334,"N",".","H Power","Covanta Honolulu Resource Recovery","49846","HI","PACN","HICC","","NUSCD",4,"Commercial NAICS Non-Cogen","ST","DFO","DFO","","","barrels","616","517","435","1704","697","301","570","382","677","433","421","522","616","517","435","1704","697","301","570","382","677","433","421","522","5.85","5.85","5.85","5.85","5.85","5.85","5.85","5.85","5.85","5.85","5.85","5.85","3604","3024","2545","9968","4077","1761","3335","2235","3960","2533","2463","3054","3604","3024","2545","9968","4077","1761","3335","2235","3960","2533","2463","3054","195.739","150.75","131.699","467.768","245.269","100.953","179.998","132.527","226.466","128.255","122.489","150.39",7275,7275,42559,42559,2232.303,2017
+57829,"N",".","DAMG Facility","Glendale Energy LLC","57148","AZ","MTN","WECC","","DAMG",2,"NAICS-22 Non-Cogen","IC","LFG","MLG","","","mcf","47670","43572","47046","43981","46293","45516","46660","46877","43371","44399","46235","48103","47670","43572","47046","43981","46293","45516","46660","46877","43371","44399","46235","48103","0.454","0.454","0.454","0.454","0.454","0.454","0.454","0.454","0.454","0.454","0.454","0.454","21642","19782","21359","19967","21017","20664","21184","21282","19690","20157","20991","21839","21642","19782","21359","19967","21017","20664","21184","21282","19690","20157","20991","21839","1686.261","1541.324","1664.219","1555.797","1637.573","1610.089","1650.555","1658.249","1534.22","1570.566","1635.538","1701.609",549723,549723,249574,249574,19446.0,2017

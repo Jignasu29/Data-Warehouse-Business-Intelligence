@@ -1,0 +1,165 @@
+single place for all domains - customers, employees, suppliers,assets, location, maaterials, products, legal entities, finantial account, reference data, and more
+everyone works to ensure master and reference data is accurate and consistent.
+provide multiple ways to distribute and integrate assests that are essential 
+
+## Multidomain MDM
+#Model, manage, and govern all your master data domains across the enterprise
+Every transaction in your organization relies on master data: products, customers, employees, suppliers, financial hierarchies, and reference data. 
+Accurate and consistent master data streamlines your operational processes and increases the quality of your reporting and analysis. 
+
+TIBCO simplifies multidomain master data management by providing one way to manage, govern, and share all your master data.
+
+Benefits:
+1. One solution for all domains
+TIBCO lets you model any master data—including relationships between domains—without buying separate solutions. 
+Manage any domain of master data such as customers, products, assets, locations, and relationships all in the same solution.
+
+2. Everything you need to master your data
+TIBCO provides all the critical capabilities for master data management 
+including workflow, data quality, role-specific applications, stewardship, and more, in one solution.
+
+3.Designed for the business
+Meet the master data management needs of your business users, not just your data stewards and developers. 
+It's important because mass adoption of high quality, consistent, and accurate master data is a must for business success.
+
+Capabilities:
+1. Master data management:
+Model, govern, and Share all your master and reference data.
+
+2. Metadata management:
+Discover, catalog, and govern all your enterprise metadata.
+
+3. Data Virtualization:
+Access, combine, and provision all your enterprise data
+
+
+######################################
+
+By offering multidomain platform in MDM, TIBCO provides simpler way to manage, share and control data. 
+Because of multidomain facility modeling data is easier between different domains without buying other separate solutions.
+As well as, maultidomain platform have capalities to done data visualization, metadata and master data management.
+
+######################################
+
+
+## Reference Data Management
+#Manage classifications and hierarchies across your systems and business lines
+Reference data is a special subset of master data used for classification throughout the organization 
+for postal codes, cost centers, financial hierarchies, or countries. 
+Whether the data is externally mandated or internally authored, it's unambiguous and non-negotiable. 
+TIBCO EBX® software is a single solution for managing and distributing your reference data. 
+By centralizing control, you ensure consistency and compliance.
+
+######################################
+
+
+
+######################################
+
+Benefits:
+1. Manage more than code lists
+Some reference data can be easily represented as either code lists or name-value pairs. 
+However, many reference datasets include complex hierarchies, mappings, and more. 
+TIBCO supports all of these forms.
+
+2. Support cross-version and inter-edition mappings
+TIBCO can manage every version of reference data—past, present, and future—and connect them through correspondence tables. 
+In addition, TIBCO also supports cross standard mappings. 
+These techniques are used to support semantic consistency across time and between different standards.
+
+3.Distribution as you like it
+Your staff and systems access reference data in many ways. 
+This is why TIBCO supports multiple methods to access, manage, and update reference data to match your organization's needs.
+
+Capabilities:
+Master data management : Model, govern and share all your master & refer
+data.
+Metadata management: Discover, catalog and govern all your enterprise metadata.
+Data virtualization: Access, combine and provision all your enterprise data.
+
+## Anything 360
+#Get trusted 360° views of what's important to your business
+Before you can provide an excellent customer experience, you need to understand your customers. 
+So, you need a unified 360° view of all your customer information. 
+The same is true when you're optimizing your supply chain, accelerating new product innovation, and executing on any critical business transformation. 
+With TIBCO, create 360° views of any entity—assets, customers, financial accounts, items, legal entities, locations, materials, products, reference data, suppliers, and more! 
+Even better, these views align all your master, reference, streaming, and transactional data.
+
+Benefits:
+1. Multidomain makes anything 360
+Don't limit your options. 
+With TIBCO multidomain data management, you don't need to buy domain-specific 360 tools, like Customer 360 or Product 360. 
+You can use the same solution for complete views of every domain.
+
+2. Don't limit yourself to either master or transactional data, demand both
+Anything 360 blends TIBCO's market-leading capabilities in master data management and data virtualization. 
+Master data "golden" records act as conformed dimensions for transactional or streaming data. 
+Together, "master" and "detail" data provide users with consistency, context, and accurate information on every entity.
+
+3. Support every business context
+Support operational (run-the-business), governance (control-the-business), and analytics (know-the-business) processes with the same solution.
+
+4. Avoid risk with fresh, just-in-time data
+Most 360 solutions require that you create extra copies of your data. 
+This approach results in inconsistency, increased risk, and compliance challenges. With TIBCO, you eliminate unnecessary replication. 
+So you can mitigate risk, reduce costs, and deliver the most up-to-date and complete information on-demand.
+
+5. Build any kind of 360 apps for your business
+Anything 360 lets you consume your data in multiple ways. 
+Whether you’re looking to distribute datasets, build visualizations, or embed views into transactional applications and processes, TIBCO supports them all.
+
+Capabilities:
+1. Flexible Data Modeling
+TIBCO's flexible data modeling lets you design data models that match your business—what you model is what you get! 
+You can build data models for any master domain and all its relationships.
+
+2. Governance & Security 
+Built-in governance and security including complete visibility, traceability, lineage, control, authentication, authorization, and encryption. 
+Deliver sanctioned data only. No more, no less.
+
+3.Hierarchy management
+Support all hierarchy types and create alternate hierarchies without duplication. 
+TIBCO makes it easy to visualize, maintain, govern, and share your complex relationships.
+
+4. Data Source connectors
+Integrate disparate data from over 200 sources so you can connect to 
+everything—RDBMS, files, cloud sources, data lakes, data warehouses, web services, and more.
+
+5. Enterprise-grade performance
+TIBCO combines advanced query optimization 
+and massively parallel processing to generate the most up-to-date 360° views on demand
+
+6. Data views & services
+It’s easy to share and integrate your views throughout the enterprise via ODBC, JDBC, web services, IPaaS, and more. 
+With Anything 360, everyone uses the same consistent data for decision-making, operations, and compliance.
+
+
+Benefits:
+1. Data Modeling:
+Semantic models to capture any object, attribute and relationship
+Model-driven, agile modeling
+
+2. Data Quality
+Validation rules for real time or on demand control
+Matching engine with stewardship & survivorship
+Data Quality dashboards
+
+3. Data life cycle
+Manage past, present and future versions of master data
+Record-level history
+Inheritance engine for data adaptation
+
+4. Hierarchy management
+Unlimited number of hierarchies based on relationships
+Support for ragged, balanced hierarchies
+Best in class hierarchy management UI
+
+5. Stewardship
+Self-service user interface for authoring, search
+Graph visualization
+Digital asset management
+Native iOS/Android app
+
+6. workflow and security
+Workflow engine to control any data management process
+Row & column security model

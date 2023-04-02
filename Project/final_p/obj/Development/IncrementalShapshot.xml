@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>final_p</Database>
+    <Server>LAPTOP-GKVN9B8U\ANALYSIS</Server>
+    <ConnectionString>Data Source=LAPTOP-GKVN9B8U\ANALYSIS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>GHpPhM+WmTMCpHRt/JH4Ce+OK7s=5/2/2022 11:32:12 AM5/2/2022 10:50:05 AM</TimeStamp>
+        <ID>
+          <String>DWBI Final Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>gbxzThe5uNUpDSW7C8kj5FLVWI8=5/2/2022 10:52:41 AM5/2/2022 10:50:54 AM</TimeStamp>
+        <ID>
+          <String>DWBI Final Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gtjJu5uy1J21hxqzNMssqFXR2sk=5/2/2022 10:53:04 AM5/2/2022 10:52:41 AM</TimeStamp>
+        <ID>
+          <String>Dim Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oEHhuTdOhBuaOHXESZXcjB5lTuU=5/2/2022 12:08:00 PM5/2/2022 10:52:41 AM</TimeStamp>
+        <ID>
+          <String>Dim Population</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GbJ81yAJ8PX1TiM1xKR08pXyYEQ=5/2/2022 12:08:00 PM5/2/2022 10:52:41 AM</TimeStamp>
+        <ID>
+          <String>Dim Weather</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TDCWLeFD4hMDc/6KDWRH4wlZ7XE=5/2/2022 12:08:00 PM5/2/2022 10:52:41 AM</TimeStamp>
+        <ID>
+          <String>Dim Pollution</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xStgYA1Ym3B+CbFGhP2u1tqpsgc=5/2/2022 12:08:00 PM5/2/2022 10:52:41 AM</TimeStamp>
+        <ID>
+          <String>Fact Electric</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ZzW/PMvOXsrrbzmJjh3rfqizjzw=5/2/2022 12:08:00 PM5/2/2022 10:52:41 AMDnMHrcMnSfJHyLGXNnP0jBoChaQ=5/2/2022 10:52:41 AM5/2/2022 10:52:41 AM</TimeStamp>
+        <ID>
+          <String>DWBI Final Project</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>zZXNfNR7K+PWlMzNktKyoin6Tc0=5/2/2022 10:39:26 AM5/2/2022 10:39:26 AM</TimeStamp>
+      <ID>
+        <String>final_p</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-02T16:09:57.966667Z</LastDeployed>
+</DeploymentSnapshot>

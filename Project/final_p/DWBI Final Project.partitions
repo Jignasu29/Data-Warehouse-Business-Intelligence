@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fa0a1a3f-8125-4930-8f02-80310c3f5c85" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DWBI Final Project</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Dim Facility</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="90799307-4975-477a-9a7e-a840db7c862a">
+          <ID>Dim Facility</ID>
+          <Name>Dim Facility</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dfb51da8-846e-4cc9-b6f8-763c2ef2e8f0">
+            <DataSourceViewID>DWBI Final Project</DataSourceViewID>
+            <TableID>dbo_DimFacility</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Population</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="06e1fae4-cd66-43a6-b570-71e5ce70ae48">
+          <ID>Dim Population</ID>
+          <Name>Dim Population</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ede4db92-a03c-403a-b0f8-bac7c276dad6">
+            <DataSourceViewID>DWBI Final Project</DataSourceViewID>
+            <TableID>dbo_DimPopulation</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Weather</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="85206d44-df0b-4cf9-921b-b6e7d3b27b2d">
+          <ID>Dim Weather</ID>
+          <Name>Dim Weather</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e31c63bf-9dfb-4aa9-98e9-d13dea300df7">
+            <DataSourceViewID>DWBI Final Project</DataSourceViewID>
+            <TableID>dbo_DimWeather</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Pollution</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="177e247c-a00b-4697-acd4-26ee16ddbb4d">
+          <ID>Dim Pollution</ID>
+          <Name>Dim Pollution</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="84146081-317d-45ac-a62d-7973c22e7f71">
+            <DataSourceViewID>DWBI Final Project</DataSourceViewID>
+            <TableID>dbo_DimPollution</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Electric</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="10095562-737f-482c-ae21-14eac8fce071">
+          <ID>Fact Electric</ID>
+          <Name>Fact Electric</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="94df6966-0aa2-4b5e-b82e-a2dde45d558b">
+            <DataSourceViewID>DWBI Final Project</DataSourceViewID>
+            <TableID>dbo_FactElectric</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
